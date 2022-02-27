@@ -38,6 +38,7 @@ public class SpringSecurityUserService implements UserDetailsService {
         System.out.println("代码修改");
         System.out.println("代码修改2");
         System.out.println("代码修改31");
+        System.out.println("冲突");
         UserDetails userDetails = new User(username,user.getPassword(),authorities);
         return userDetails;
     }
